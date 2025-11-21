@@ -27,6 +27,9 @@ def split_at_first_digit(formula):
         prefix = formula[:digit_location]
         numeric_part_str = formula[digit_location:]
         return (prefix, int(numeric_part_str))
+
+formula = "He98"
+print(split_at_first_digit(formula))
         
 def count_atoms_in_molecule(molecular_formula):
     """Takes a molecular formula (string) and returns a dictionary of atom counts.  
