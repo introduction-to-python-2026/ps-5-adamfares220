@@ -28,7 +28,6 @@ def split_at_first_digit(formula):
         numeric_part_str = formula[digit_location:]
         return (prefix, int(numeric_part_str))
 
-formula = "He98"
 print(split_at_first_digit(formula))
         
 def count_atoms_in_molecule(molecular_formula):
