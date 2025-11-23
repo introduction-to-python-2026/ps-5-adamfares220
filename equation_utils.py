@@ -1,5 +1,6 @@
 # Add the import statements for necessary sympy functions here
-
+from sympy import Symbol, Eq
+import numpy as np
 
 ELEMENTS = [
     'H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne',
